@@ -13,6 +13,7 @@
   border-radius: 4px 0 0 4px;
   border: 2px solid #00471b;
   outline: none;
+  box-sizing: border-box; /* Asegura que el padding y border no afecten al width */
 }
 
 .task-button {
@@ -26,9 +27,11 @@
   background-color: #00471b;
   color: white;
   text-transform: capitalize;
+  height: 100%; /* Asegura que el botón tome toda la altura del contenedor */
+  box-sizing: border-box; /* Asegura que el padding y border no afecten al height */
 }
 
-/*Mobile Resolution*/
+/* Mobile Resolution */
 @media all and (max-width: 599px) {
   .task-form {
     display: flex;
@@ -40,15 +43,18 @@
   .task-input {
     width: 70%;
     font-size: 1em;
-    padding: 2px 4px 2px 3px;
+    padding: 10px; /* Ajuste para mejor usabilidad */
     border-radius: 4px 0 0 4px;
     border: 1px solid #00471b;
   }
   
   .task-button {
-    padding: 0;
+    padding: 8px; /* Ajuste para mejor usabilidad en móviles */
     margin: 0;
     font-size: 1em;
-    justify-content: center;
+    border-radius: 0 4px 4px 0;
+    min-height: 44px; /* Altura recomendada para la accesibilidad táctil */
+    text-transform: capitalize;
+    height: 100%; /* Asegura que el botón tome toda la altura del contenedor */
   }
 }

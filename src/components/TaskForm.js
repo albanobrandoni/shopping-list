@@ -36,7 +36,7 @@ function TaskForm(props) {
         id='task-input'
         className='task-input'
         type='text'
-        placeholder='Escribe una Tarea'
+        placeholder='Agrega un Artículo a la Lista'
         name='text'
         onChange={changeManager}
       />

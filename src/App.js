@@ -12,7 +12,7 @@ function App() {
           alt='Imagen del logo' />
       </div>
       <div className='main-task-list'>
-        <h1>Mis Tareas</h1>
+        <h1>Mi Lista</h1>
         <TaskList />
       </div>
     </div>
