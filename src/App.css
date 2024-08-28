@@ -51,3 +51,40 @@ h1 {
   margin: 10px;
   border-radius: 25px;
 }
+
+/*Mobile Resolution*/
+@media all and (max-width: 599px) {
+  html, body {
+    margin-top: 5px;
+  }
+  
+  h1 {
+    font-size: calc(1em + 1vh);
+    margin: 2px 0;
+  }
+  
+  .task-application {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Logo */
+  
+  .logo-container {
+    margin: 2px;
+    min-width: 180px;
+  }
+  
+  .logo {
+    width: 90%;
+    height: auto;
+  }
+  
+  /* Lista de Tareas*/
+  .main-task-list {
+    width: 90%;
+    min-height: 200px;
+    padding: 5px;
+    margin: 2px;
+  }
+}

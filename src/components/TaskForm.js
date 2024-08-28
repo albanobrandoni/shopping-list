@@ -43,7 +43,7 @@ function TaskForm(props) {
       <button 
         className='task-button'
         onClick={props.addTask}>
-          Agregar Tarea
+          Agregar
       </button>
     </form>
   );

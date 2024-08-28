@@ -27,3 +27,28 @@
   color: white;
   text-transform: capitalize;
 }
+
+/*Mobile Resolution*/
+@media all and (max-width: 599px) {
+  .task-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .task-input {
+    width: 70%;
+    font-size: calc(1em + 1vh);
+    padding: 2px 4px 2px 3px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #00471b;
+  }
+  
+  .task-button {
+    width: 20%;
+    padding: 0;
+    margin: 0;
+    font-size: calc(0.5em + 1vh);
+  }
+}
