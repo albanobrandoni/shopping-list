@@ -25,7 +25,6 @@ function TaskForm(props) {
     setInput('');
     
     props.onSubmit(newTask);
-    
   }
 
   return(
